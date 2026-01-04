@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Submission Success</title>
+
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Success!</h1>
+        <p style="text-align: center; color: var(--label-color); margin-bottom: 1.5rem;">Your information has been
+            submitted successfully.</p>
+
+        <div class="result-list">
+            <div class="result-item">
+                <span class="result-label">Name:</span>
+                <span>
+                    <%= name %>
+                </span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Email:</span>
+                <span>
+                    <%= email %>
+                </span>
+            </div>
+            
+        </div>
+
+        <div style="text-align: center;">
+            <a href="/" class="back-link">← Back to Form</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
